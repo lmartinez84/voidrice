@@ -12,10 +12,10 @@ label=🎼
 interval=once
 signal=11
 
-[news]
-label=📰
-interval=once
-signal=6
+#[news]
+#label=📰
+#interval=once
+#signal=6
 
 #[iplocate]
 #interval=30
@@ -50,13 +50,13 @@ signal=12
 interval=once
 signal=10
 
-#[disk]
-#interval=60
-#command=disk /
+[disk]
+interval=60
+command=disk /
 
-#[disk]
-#interval=60
-#command=disk /home 🏠
+[disk]
+interval=60
+command=disk /home 🏠
 
 [battery]
 command=battery BAT0
